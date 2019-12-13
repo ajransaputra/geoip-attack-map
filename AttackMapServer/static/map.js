@@ -9,7 +9,7 @@ var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket"); // Internal
 
 // link map
 
-L.mapbox.accessToken = "pk.eyJ1IjoibW1heTYwMSIsImEiOiJjaWgyYWU3NWQweWx2d3ltMDl4eGk5eWY1In0.9YoOkALPP7zaoim34ZITxw";
+L.mapbox.accessToken = "pk.eyJ1IjoiYWpyYW5zYXB1dHJhIiwiYSI6ImNqdGkyZjBjOTBnbmg0NHFtbTVnZDVrMDQifQ.5Il-JdUl9ESIDWXj1ZnFtA";
 var map = L.mapbox.map("map", "mapbox.dark", {
 center: [0, 0], // lat, long
 zoom: 2
@@ -19,7 +19,7 @@ zoom: 2
 L.control.fullscreen().addTo(map);
 
 // hq coords
-var hqLatLng = new L.LatLng(37.3845, -122.0881);
+var hqLatLng = new L.LatLng(-2.984885, 104.732294);
 
 // hq marker
 L.circle(hqLatLng, 110000, {
