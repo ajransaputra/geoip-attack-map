@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-AUTHOR: Matthew May - mcmay.web@gmail.com
+AUTHOR: Muhammad Ajran Saputra - qreenajran@gmail.com
 """
 
 # Imports
